@@ -373,7 +373,7 @@ router.put("/:id/:puz_index", async (req, res) => {
             p24: "answered",
           },
           $inc: { 
-            score: 1 
+            score: 5 
           }
         }
       );
@@ -386,7 +386,7 @@ router.put("/:id/:puz_index", async (req, res) => {
             p25: "answered",
           },
           $inc: { 
-            score: 1 
+            score: 5 
           }
         }
       );
@@ -399,7 +399,7 @@ router.put("/:id/:puz_index", async (req, res) => {
             p26: "answered",
           },
           $inc: { 
-            score: 1 
+            score: 5 
           }
         }
       );
@@ -412,7 +412,7 @@ router.put("/:id/:puz_index", async (req, res) => {
             p27: "answered",
           },
           $inc: { 
-            score: 1 
+            score: 5 
           }
         }
       );
@@ -425,7 +425,7 @@ router.put("/:id/:puz_index", async (req, res) => {
             p28: "answered",
           },
           $inc: { 
-            score: 1 
+            score: 5
           }
         }
       );
@@ -438,7 +438,7 @@ router.put("/:id/:puz_index", async (req, res) => {
             p29: "answered",
           },
           $inc: { 
-            score: 1 
+            score: 5 
           }
         }
       );
@@ -451,7 +451,7 @@ router.put("/:id/:puz_index", async (req, res) => {
             p30: "answered",
           },
           $inc: { 
-            score: 1 
+            score: 5 
           }
         }
       );
