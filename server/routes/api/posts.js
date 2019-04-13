@@ -461,7 +461,7 @@ router.put("/:id/:puz_index", async (req, res) => {
   });
 
 async function loadPostsCollection() {
-    const client = await mongodb.MongoClient.connect('mongodb+srv://cswnUser:cswn2019@cswn2019-jbhdg.mongodb.net/test?retryWrites=true', {
+    const client = await mongodb.MongoClient.connect('mongodb+srv://cswnUser:cswn2019@cluster0-jbhdg.mongodb.net/test?retryWrites=true', {
         useNewUrlParser: true,
 
     })
